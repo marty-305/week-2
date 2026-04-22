@@ -1,0 +1,27 @@
+function checker() {
+    // 1. Get score from user
+    let score = prompt("Please enter a score between 0 and 100");
+    score = parseFloat(score);
+
+    // 2. Check if valid
+    if (isNaN(score) || score < 0 || score > 100) {
+        alert("You entered an invalid number");
+        return;
+    }
+
+    // 3. Grade based on score
+    if (score >= 70) {
+        alert("Congratulations, you got an A");
+    } else if (score >= 60) {
+        alert("You got a B. Well done!");
+    } else if (score >= 50) {
+        alert("You got a C");
+    } else if (score >= 40) {
+        alert("You got a D");
+    } else {
+        alert("You don fail o 😅");
+    }
+}
+
+// Call the function
+checker()

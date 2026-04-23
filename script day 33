@@ -35,14 +35,14 @@
 
 
 
-let count = 10
- while (count >=1) {
-    console.log(count)
-    count = count - 1
+//let count = 10
+ //while (count >=1) {
+    //console.log(count)
+   // count = count - 1
 
 
     
- }
+ //}
 
 //do - while 
 
@@ -50,33 +50,33 @@ let count = 10
 
 
 //for loop
-for (let i = 1; i<50; i++) {
+//for (let i = 1; i<50; i++) {
 //code you want to run
-}
+//}
 
-for (let i = 1; i <=50; i++){
-    console.log(i)
+// for (let i = 1; i <=50; i++){
+//     console.log(i)
 
-}
+// }
 //challenge - print 1 to 50 in your console using FOR loop
 
 
 //arrays
 
-const myArray = ["martha", 4,"jemilla", 5,"gift"]
+//const myArray = ["martha", 4,"jemilla", 5,"gift"]
 
-console.log(myArray)
-console.log(myArray[4])
-
-
-
-let length = myArray.length
-
-console.log(myArray.length)
+//console.log(myArray)
+//console.log(myArray[4])
 
 
-myArray.push("laptop")
-console.log(myArray)
+
+//let length = myArray.length
+
+//console.log(myArray.length)
+
+
+//myArray.push("laptop")
+//console.log(myArray)
 
 
 
@@ -90,15 +90,73 @@ console.log(myArray)
 //console.log(myArray)
 
 
-console.log(myArray.indexOf("jemilla"))
+//console.log(myArray.indexOf("jemilla"))
 
-myArray.splice(1,1, "undefined", "array")
-console.log(myArray)
-
-
+//myArray.splice(1,1, "undefined", "array")
+//console.log(myArray)
 
 
 
+
+
+
+
+
+//const names = ["asiya", "jemila","martha","deborah",["oxblood","blue","pink","army-green",][1, 2, 8,0, true]
+//]
+//[[1, 2, 8, 0 ]]
+
+//console.log(names)
+//console.log(names[4])
+//console.log(names[2])
+
+//const letters = ["w","y","s","a", true]
+//console.log(letters)
+//console.log(letters.length)
+
+//console.log(letters.join())
+//const name = "constantine"
+//console.log(name.split())
+//console.log(name.split(""))
+
+//let sentence = `obi is a boy`
+
+//console.log(sentence.split())
+//console.log(sentence.split(""))
+//console.log(sentence.split(" "))
+
+//const ip = "192.168.1.1"
+//console.log(ip.split("."))
+//const random = "wasila-is-using-a-charger"
+//console.log(random.split("-"))
+
+
+//combining arrays and loops
+//challenge 1 - print an array of numbers from 1 to 50
+
+
+
+ let numbers = []
+ for(let i = 1; i <=50; i++) {
+    numbers.unshift(i)
+ }
+    console.log(numbers)
+ //}
+
+//let counter = 1
+//do {numbers.push(counter)
+   // counter += 1
+//}
+//while (counter <= 50){
+   // numbers.push(counter <= 50)
+//counter++}
+//console.log(numbers)
+//const jointNumbers = numbers.join(".")
+//console.log(jointNumbers)
+//const splitNumber = jointNumbers.split(".")
+//console.log(splitNumbers)
+
+//console.log("obi is a boy")
 
 
 
